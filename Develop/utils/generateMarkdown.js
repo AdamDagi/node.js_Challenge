@@ -1,13 +1,13 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge(license, userName, repoName) {
   if (license == "MIT License") {
-    return `![License Badge](https://img.shields.io/github/license/AdamDagi/node.js_Challenge?color=orange&label=License&logo=AIOHTTP&style=plastic)`;
+    return `[![License](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://choosealicense.com/licenses/mit/)`;
   }
   if  (license == "The Unlicense") {
-    return `![License Badge](https://img.shields.io/badge/Twitter-Profile-informational?style=flat&logo=twitter&logoColor=white&color=1CA2F1)`;
+    return `[![License](https://img.shields.io/badge/License-Unlicense-lightblue.svg)](https://choosealicense.com/licenses/unlicense/)`;
   }
-  return ` `
+  return ``;
 };
 
 // TODO: Create a function that returns the license link
@@ -38,39 +38,40 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const licenseBadge = renderLicenseBadge(data.License);
+  const licenseBadge = renderLicenseBadge(data.License, data.GitHubUserName, data.GitHubRepo);
   const licenseSection = renderLicenseSection(data.License);
   // const licenseLink = renderLicenseLink(data.License);
 
   return ` 
-   ${licenseBadge}
-
-   ### **Title**  <br />
+  ${licenseBadge}
+  ### **Title**  <br />
       ${data.Title}
 
-   ### **Description** <br />
+  ### **Description** <br />
       ${data.Description}
 
-   ### **Content** <br />
+  ### **Content** <br />
       ${data.Content}
-   
-   ### **Instalation** <br />
+  
+  ### **Instalation** <br />
       ${data.Instalation}
 
-   ### **Usage** <br />
+  ### **Usage** <br />
       ${data.Usage}
 
-   ### **Contributing** <br />
+  ### **Contributing** <br />
       ${data.Contributing}
 
-   ### **Tests** <br />
+  ### **Tests** <br />
       ${data.Tests}
 
-   ### **Questions** <br />
-      ${data.GitHub}
-
-   ${licenseSection}
+  ### **Questions** <br />
+  [GitHub Profile](https://github.com/${data.GitHubUserName}) <br />
+  For aditional questions you can contact me via e-mail: ${data.email} <br /><br />
+  
+  ${licenseSection}
   `;
 };
 
 module.exports = generateMarkdown;
+
