@@ -1,33 +1,33 @@
  
-  [![License](https://img.shields.io/badge/License-Unlicense-lightblue.svg)](https://choosealicense.com/licenses/unlicense/)
+  [![License](https://img.shields.io/badge/License-MIT-lightblue.svg)](https://choosealicense.com/licenses/mit/)
   ### **Title**  <br />
-      egAHTSRJYTDKU
+      Coding
 
   ### **Description** <br />
-      ARTSUKFYILGHKJ
+      Coding learning in Columbian University
 
   ### **Content** <br />
-      ARESTDYFUKGIH
+      6 week studying 2 times a week
   
   ### **Instalation** <br />
-      ARSTYDUFIG
+      one two three
 
   ### **Usage** <br />
-      EATRSYDUFG
+      one two three
 
   ### **Contributing** <br />
-      ERATSYDUF
+      one two three
 
   ### **Tests** <br />
-      ERTASYDUFIK
+      one two three
 
   ### **Questions** <br />
-  [GitHub Profile](https://github.com/EATRSYDJ) <br />
-  For aditional questions you can contact me via e-mail: AYRTSUJD <br /><br />
+  [GitHub Profile](https://github.com/AdamDagi) <br />
+  For aditional questions you can contact me via e-mail: usa@gmail.com <br /><br />
   
   
    ### **License**
    
-   [The Unlicense](https://choosealicense.com/licenses/unlicense/)
+   [MIT License](https://choosealicense.com/licenses/mit/)
   
   
