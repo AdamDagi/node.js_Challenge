@@ -1,4 +1,4 @@
-* GitHub Repo Link: https://github.com/AdamDagi/node.js_Challenge
+* GitHub Repo Link: https://github.com/AdamDagi/readme-generator-app
 * Screen Video record Link: https://watch.screencastify.com/v/BgsFwG47f3xLVe3Nsgfs
 
 * Screen Shot with redy Readmy.md
